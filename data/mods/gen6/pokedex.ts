@@ -131,7 +131,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	chimecho: {
 		inherit: true,
-		baseStats: {hp: 130, atk: 50, def: 70, spa: 95, spd: 80, spe: 65},
+		baseStats: {hp: 65, atk: 50, def: 70, spa: 95, spd: 80, spe: 65},
 	},
 	latiasmega: {
 		inherit: true,
