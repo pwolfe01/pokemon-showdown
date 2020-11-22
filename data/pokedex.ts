@@ -6285,7 +6285,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 358,
 		name: "Chimecho",
 		types: ["Psychic"],
-		baseStats: {hp: 85, atk: 50, def: 80, spa: 95, spd: 90, spe: 65},
+		baseStats: {hp: 75, atk: 50, def: 80, spa: 95, spd: 90, spe: 65},
 		abilities: {0: "Levitate"},
 		heightm: 0.6,
 		weightkg: 1,
