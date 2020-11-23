@@ -383,7 +383,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	ancientpower: {
 		num: 246,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 70,
 		category: "Special",
 		name: "Ancient Power",
 		pp: 5,

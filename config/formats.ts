@@ -18,12 +18,12 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: FormatList = [
-
+/*
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Sw/Sh Singles",
+		section: "Sword Singles",
 	},
 	{
 		name: "[Gen 8] Random Battle",
@@ -2944,5 +2944,5 @@ export const Formats: FormatList = [
 			battle: 24,
 		},
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod'],
-	},
+	},*/
 ];

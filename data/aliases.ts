@@ -49,6 +49,7 @@ export const Aliases: {[alias: string]: string} = {
 	pmots: "[Gen 8] Megamax",
 	mbh: "[Gen 8] National Dex BH",
 	opti: "[Gen 8] Optimons",
+	emeraldkaizo: "Emerald Kaizo",
 
 	// mega evos
 	fabio: "Ampharos-Mega",

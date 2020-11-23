@@ -19,7 +19,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	ancientpower: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		basePower: 150,
 	},
 	astonish: {
 		inherit: true,
