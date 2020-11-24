@@ -103,6 +103,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		prevo: '',
 		evos: [],
 		evoLevel: undefined,
+		baseStats: {hp: 40, atk: 70, def: 130, spa: 60, spd: 130, spe: 25},
 	},
 	tangela: {
 		inherit: true,
