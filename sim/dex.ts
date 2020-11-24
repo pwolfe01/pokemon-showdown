@@ -40,6 +40,7 @@ import {Species} from './dex-species';
 import {Format, RuleTable, mergeFormatLists, ComplexBan, ComplexTeamBan} from './dex-formats';
 import {PRNG, PRNGSeed} from './prng';
 import {Utils} from '../lib/utils';
+import { consoleips } from '../config/config-example';
 
 const BASE_MOD = 'gen8' as ID;
 const DEFAULT_MOD = BASE_MOD;
@@ -188,6 +189,10 @@ export class ModdedDex {
 		return this.mod(`gen${gen}`);
 	}
 
+	forEmeraldKaizo() {
+		return this.mod(`emeraldkaizo`);
+	}
+
 	forFormat(format: Format | string): ModdedDex {
 		if (!this.modsLoaded) this.includeMods();
 		const mod = this.getFormat(format).mod;
@@ -289,7 +294,6 @@ export class ModdedDex {
 
 	getSpecies(name?: string | Species): Species {
 		if (name && typeof name !== 'string') return name;
-
 		name = (name || '').trim();
 		let id = toID(name);
 		if (id === 'nidoran' && name.endsWith('♀')) {
